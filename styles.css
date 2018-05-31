@@ -1,0 +1,38 @@
+.friend {
+    background-color: 	#C4C3D0;
+    position: relative;
+    height: 75px;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.friend h3, h1 {
+    color: 	#C9A0DC;
+    text-transform: uppercase;
+
+}body {
+    background-color:#FFFAF0;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: bold;
+    text-align: center;
+}
+
+p, h3 {
+    color: #1a1a1a;
+
+}
+
+.marinette, .alya, .rose {
+    background-color: #CCCCFF;
+    position: relative;
+    height: 50px;
+    width: 1000px;
+    margin: 0 auto;
+}
+.juleka, .chloe {
+    background-color: 	#CEC8EF;
+    position: relative;
+    height: 50px;
+    width: 1000px;
+    margin: 0 auto;   
+}
