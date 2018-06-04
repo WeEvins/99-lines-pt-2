@@ -6,11 +6,11 @@ document.addEventListener('DOMContentLoaded', function () {
     btnSing.innerText = "Sing!";
     btnSing.className = "btnSing";
     document.body.appendChild(btnSing);
-//and here i added the event listener, but its not quite right. 
-    btnSing.addEventListener = ('click', function () {
+
+    btnSing.addEventListener('click', function () {
         
         let songDiv = document.createElement('div');  // Here is the div the h3 and p go into
-        body.document.appendChild(songDiv); // okay my div is appended here
+        document.body.appendChild(songDiv); // okay my div is appended here
         
         let songGirl = document.createElement('h3'); // this h3 should read the individual girls name
         songGirl.className = friends.f;  // I want each h3 created to have the girl's name as the class
